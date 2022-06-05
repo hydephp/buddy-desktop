@@ -1,0 +1,66 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+label {
+	font-size: .9rem;
+	font-weight: 600;
+}
+.form-control-lg {
+	font-size: .9rem;
+}
+
+.text-std {
+	font-size: 15px;
+}
+
+a {
+	color: #5e72e4;
+}
+
+.my-5 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.form-check:not(.form-switch) .form-check-input[type="checkbox"]:after{
+	font-family: unset;
+    content: "✔";
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.75);
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0d6efd;
+}
+.nav-pills .nav-link.active svg {
+    fill: #fff;
+}
+
+
+.dropdown .dropdown-toggle:after, .dropup .dropdown-toggle:after, .dropstart .dropdown-toggle:after, .dropend .dropdown-toggle:after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.status-bullet {
+    font-weight: 900;
+}
